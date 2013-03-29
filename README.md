@@ -13,9 +13,9 @@ Requires Wordpress TwentyTwelve theme.
 
 Copy the folder to your wp-content/themes folder.
 
-Optionally install the [Flexslider Plugin]<https://github.com/korylprince/wordpress-flexslider> to use on the front page.
+Optionally install the [Flexslider Plugin](https://github.com/korylprince/wordpress-flexslider) to use on the front page.
 
-Optionally install the [Infinite-Scroll Plugin]<http://wordpress.org/extend/plugins/infinite-scroll/> for fun.
+Optionally install the [Infinite-Scroll Plugin](http://wordpress.org/extend/plugins/infinite-scroll/) for fun.
 
 Use the following settings for Infinite-Scroll:
 
