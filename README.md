@@ -24,6 +24,7 @@ Use the following settings for Infinite-Scroll:
     Next Selector: #nav-wrapper a
     Item Selector: .post-wrapper
     Callback: updateMasonry();
+    Behavior: Masonry/Isotope
 
 If you have any issues or questions, email the email address below, or open an issue at:
 https://github.com/korylprince/wordpress-fallingpolygons/issues
