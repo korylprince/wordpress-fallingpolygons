@@ -39,7 +39,7 @@ There is an extra metabox for adding a subtitle to each post or page.
 
 Users can enter their twitter to show along with their name.
 
-Includes a hack to make reCAPTCHA more responsive.
+Includes a [hack](https://github.com/korylprince/reCAPTCHA_Responsive) to make reCAPTCHA more responsive.
 
 Fixes video scaling.
 
