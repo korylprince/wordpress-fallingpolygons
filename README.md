@@ -31,21 +31,23 @@ https://github.com/korylprince/wordpress-fallingpolygons/issues
 
 #Features#
 
-All pages that show groups of posts use tiles based on the featured image.
+All pages that show groups of posts use tiles based on the featured image. Uses [Masonry](http://masonry.desandro.com/).
 
 There are two post types - Standard, and Image. Image shows the featured image on the single post page and Standard does not.
 
 There is an extra metabox for adding a subtitle to each post or page.
 
-Users can enter their twitter to show along with their name.
+Users can enter their twitter username (don't include @) to show along with their name.
 
 Includes a [hack](https://github.com/korylprince/reCAPTCHA_Responsive) to make reCAPTCHA more responsive.
 
-Fixes video scaling.
+Includes [UItoTop](http://mattvarone.com/web-design/uitotop-jquery-plugin/) for scroll to top functionality.
+
+Fixes video scaling issues on smaller screens.
 
 #Copyright Information#
 
-Wordpress code is copyright its owner.
+Modernizr, jQuery easing, Masonry, and UItoTop code is copyrighted and licensed by its respective owners.
 
 All other code is Copyright 2013 Kory Prince (korylprince at gmail dot com.) This code is licensed under the GPL v2 which is included in this distribution. If you'd like it licensed under another license then send me an email.
 
