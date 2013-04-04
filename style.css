@@ -1,8 +1,5 @@
 /*
-Theme Name: Falling Polygons 
-Description: Masonry and Infinite Scoll.
-Author: Kory Prince 
-Template: twentytwelve
+Theme Name: Falling Polygons Description: Masonry and Infinite Scoll.  Author: Kory Prince Template: twentytwelve
 */
 
 @import url("../twentytwelve/style.css");
@@ -236,6 +233,10 @@ img.header-image {
     left: 0;
     width: 100%;
     height: 100%;
+}
+
+img#wpstats {
+    display: none;
 }
 
 /*fix some mobile stuff*/
