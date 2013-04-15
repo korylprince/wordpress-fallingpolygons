@@ -115,6 +115,7 @@ img.header-image {
 
 .entry-subtitle {
     font-size: 2rem !important;
+    font-style: italic;
     line-height: 1.4;
     color: #666;
     font-weight: normal;
