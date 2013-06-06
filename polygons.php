@@ -1,9 +1,10 @@
 <?php
-$cats = implode(', ',array_map(function($x) {
+function fallingpolygons_get_categories($x) {
         $x = $x->name;
         if (substr($x,-1) == 's') { $x = substr($x,0,-1);} 
         return strtolower($x);
-    },get_the_category()));
+}
+$cats = implode(', ',array_map( fallingpolygons_get_categories ,get_the_category()));
 ?>
 <div id="post-<?php the_ID(); ?>" class="post-wrapper">
 <div class="image-wrapper">
