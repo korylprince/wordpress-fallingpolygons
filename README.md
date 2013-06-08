@@ -47,7 +47,7 @@ Fixes video scaling issues on smaller screens.
 
 #Copyright Information#
 
-Modernizr, jQuery easing, Masonry, and UItoTop code is copyrighted and licensed by its respective owners.
+Modernizr, jQuery easing, Masonry, UItoTop, and Archive code is copyrighted and licensed by its respective owners.
 
 All other code is Copyright 2013 Kory Prince (korylprince at gmail dot com.) This code is licensed under the GPL v2 which is included in this distribution. If you'd like it licensed under another license then send me an email.
 
