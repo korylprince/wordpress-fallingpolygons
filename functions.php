@@ -38,6 +38,11 @@ include('subtitle.php');
 //add search
 add_shortcode('wpbsearch', 'get_search_form');
 
+function fallingpolygons_archive_shortcode($args) {
+    include 'jquery-archives.php';
+}
+add_shortcode('archive', 'fallingpolygons_archive_shortcode');
+
 //responsive video
 function fallingpolygons_responsive_video($html, $url, $attr, $post_id) {
       return '<div class="video-container">' . $html . '</div>';
