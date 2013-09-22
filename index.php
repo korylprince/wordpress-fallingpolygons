@@ -48,6 +48,9 @@ get_header(); ?>
             <?php if ( is_front_page() && function_exists( 'flexslider_shortcode' ) ) :?>
                 <?php do_shortcode('[flexslider]'); ?>
             <?php endif; ?>
+            <?php if ( is_front_page() && function_exists( 'hub_shortcode' ) ) :?>
+                <?php do_shortcode('[hub]'); ?>
+            <?php endif; ?>
         <div id="postholder">
 		<?php if ( have_posts() ) : ?>
 			<?php /* Start the Loop */ ?>
