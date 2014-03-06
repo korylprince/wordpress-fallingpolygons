@@ -141,6 +141,17 @@ img.header-image {
     text-decoration: underline;
 }
 
+footer.entry-meta {
+    overflow: hidden;
+}
+
+#disclosure {
+    display: block;
+    min-width: 100%;
+    float: left;
+    clear: both;
+}
+
 .nav-single {
     border-bottom: 1px solid #ededed;
     position: relative;

@@ -45,6 +45,7 @@
 
 		<footer class="entry-meta">
 			<?php edit_post_link( __( 'Edit', 'twentytwelve' ), '<span class="edit-link">', '</span>' ); ?>
+            <small id="disclosure">Disclosure of Material Connection: Some of the links in the post above are “affiliate links.” This means if you click on the link and purchase the item, we will receive an affiliate commission. Regardless, we only recommend products or services we use personally and believe will add value to our readers. We are disclosing this in accordance with the Federal Trade Commission’s <a href="http://www.access.gpo.gov/nara/cfr/waisidx_03/16cfr255_03.html">16 CFR, Part 255</a>: “Guides Concerning the Use of Endorsements and Testimonials in Advertising.”</small><br />
 			<?php if ( is_singular() && get_the_author_meta( 'description' ) && is_multi_author() ) : // If a user has filled out their description and this is a multi-author blog, show a bio on their entries. ?>
 				<div class="author-info">
 					<div class="author-avatar">
